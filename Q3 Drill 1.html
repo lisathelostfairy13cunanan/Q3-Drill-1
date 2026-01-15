@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <title>Q3 Drill 1</title>
+
+    <style>
+        html, body {
+            height: 100%;
+            margin: 0;
+        }
+
+        body {
+            min-height: 100vh;
+            background-image: url('https://i.pinimg.com/736x/f6/77/95/f6779549f045a635aac1460a8f715169.jpg'); 
+            background-size: cover;
+            background-position: center;
+            background-repeat: no-repeat;
+        }
+    </style>
+</head>
+
+<body class="p-4">
+
+    <div class="container bg-dark p-3 rounded mb-4">
+        <h1 class="text-center text-light" id="z15"></h1>
+    </div>
+
+    <div class="algebra-puzzle text-center bg-light p-4 rounded-3 shadow-sm w-75 mx-auto">
+        <h1 class="fw-bold">Solve Algebra Puzzle</h1>
+        <p>If x = 5, and y = 2, what is x² - 2(y) - 7?</p>
+    </div>
+
+    <div class="text-center mt-4">
+        <button type="button" class="btn btn-info"
+            onclick="document.getElementById('result').innerHTML = zuwu;">
+            Result
+        </button>
+    </div>
+
+    <p class="text-success text-center mt-3" id="result"></p>
+
+    <script>
+        var z = "Basic Calculator"; //assign z 15
+        var zuwu = 15;
+        var x = 5;
+        var y = 2;
+        document.getElementById('z15').innerHTML = z;
+    </script>
+
+</body>
+</html>
